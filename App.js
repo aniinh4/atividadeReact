@@ -9,6 +9,8 @@ export default function App() {
       <Text style={[styles.sala, {backgroundColor:'pink'}]}>7</Text>
 
       <Text style={[styles.nome, {color:'blue'}]}>Ana Clara Fernandes de Oliveira</Text>
+
+      <Text style={[styles.computador, {backgroundColor:'pink', color:'blue'}]}>Senai 2024</Text>
     </View>
   );
 }
