@@ -4,9 +4,11 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-        <Text style={[styles.numero, {color:'blue'}]}>02</Text>
+        <Text style={[styles.computador, {color:'blue'}]}>02</Text>
+
       <Text style={[styles.sala, {backgroundColor:'pink'}]}>7</Text>
-      <Text style={[styles.texto, {color:'blue'}]}>Ana Clara Fernandes de Oliveira</Text>
+
+      <Text style={[styles.nome, {color:'blue'}]}>Ana Clara Fernandes de Oliveira</Text>
     </View>
   );
 }
@@ -20,14 +22,16 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-  texto: {
+
+  nome: {
    fontSize: 30, 
    fontWeight: 'bold',
    alignItems: 'center',
    justifyContent: 'center',
    left: '30%',
   },
-  numero: {
+
+  computador: {
     fontSize: 25, 
     fontStyle: 'italic',
     alignItems: 'center',
